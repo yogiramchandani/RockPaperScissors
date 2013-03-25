@@ -1,0 +1,30 @@
+﻿
+<div>
+    <div class="row-fluid">
+        <h5>Select game type</h5>
+        <div id="gameType" class="btn-group" data-toggle="buttons-radio">
+            <input class = "btn btn-primary" type = "button" id = "rbPersonVsComputer" value = "PersonVsComputer">
+            <input class = "btn btn-primary" type = "button" id = "rbComputerVsComputer" value = "ComputerVsComputer" />
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div>
+            <div id="playerMove" class="btn-group">
+                <button class = "btn btn-primary" type = "button" id = "rbRock" onclick = "play('Rock')">Rock</button>
+                <button class = "btn btn-primary" type = "button" id = "rbPaper" onclick = "play('Paper')">Paper</button>
+                <button class = "btn btn-primary" type = "button" id = "rbScissors" onclick = "play('Scissors')">Scissors</button>
+            </div>
+            <button id="computerMove" class="btn btn-primary" type = "button" onclick = "play('')">New move</button>
+            <div id="currentGame">
+                <div class="row-fluid alert-info">
+                    <b>Current game type: </b><em id="currentGameType"></em><b> Current game ID: </b><em id="gameId"></em>
+                </div>
+                <div class="row-fluid">
+                    <table id="gameResults" class="table table-bordered table-striped table-hover"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/rps")

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Core", "RockPaperScissors.Core\RockPaperScissors.Core.csproj", "{317343E9-DB6C-4A55-B321-2723126CAF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Core.Tests", "RockPaperScissors.Core.Tests\RockPaperScissors.Core.Tests.csproj", "{4244E993-78B4-4357-9213-4D571C7B342F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Web", "RockPaperScissors.Web\RockPaperScissors.Web.csproj", "{AF8CD149-5A05-4FBF-9ED2-CD32862BA977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Web.AcceptanceTests", "RockPaperScissors.Web.AcceptanceTests\RockPaperScissors.Web.AcceptanceTests.csproj", "{14B43982-0769-4984-8323-1CDCBA020989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317343E9-DB6C-4A55-B321-2723126CAF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317343E9-DB6C-4A55-B321-2723126CAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317343E9-DB6C-4A55-B321-2723126CAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317343E9-DB6C-4A55-B321-2723126CAF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4244E993-78B4-4357-9213-4D571C7B342F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4244E993-78B4-4357-9213-4D571C7B342F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4244E993-78B4-4357-9213-4D571C7B342F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4244E993-78B4-4357-9213-4D571C7B342F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8CD149-5A05-4FBF-9ED2-CD32862BA977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8CD149-5A05-4FBF-9ED2-CD32862BA977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8CD149-5A05-4FBF-9ED2-CD32862BA977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8CD149-5A05-4FBF-9ED2-CD32862BA977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B43982-0769-4984-8323-1CDCBA020989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B43982-0769-4984-8323-1CDCBA020989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B43982-0769-4984-8323-1CDCBA020989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B43982-0769-4984-8323-1CDCBA020989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
